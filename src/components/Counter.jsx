@@ -20,8 +20,8 @@ export const Counter = () => {
         <div className={styles.counter}>
                 <Display value={value} />
             <div className={styles.btns}>
-                <Button onClick={incHandler} title={'inc'} />
-                <Button onClick={resetHandler} title={'reset'} />
+                <Button onClick={incHandler} title={'INC'} />
+                <Button onClick={resetHandler} title={'RESET'} />
             </div>
         </div>
     );
